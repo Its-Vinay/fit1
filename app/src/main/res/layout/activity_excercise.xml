@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F4E2DD">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:orientation="horizontal"
+        android:background="#F4E2DD">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cardio" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F4E2DD">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/r"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Workouts"
+                android:textColor="#000000"
+                android:textSize="40dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+
+
+                >
+
+                <Button
+                    android:id="@+id/chest"
+                    android:layout_width="110dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Chest"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="110dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Back"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/biceps"
+                    android:layout_width="110dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Biceps"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/triceps"
+                    android:layout_width="110dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Triceps"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/shoulders"
+                    android:layout_width="110dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Shoulders"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/cardio"
+                    android:layout_width="110dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Cardio"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/legs"
+                    android:layout_width="110dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Legs"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+
+                <Button
+                    android:id="@+id/abs"
+                    android:layout_width="111dp"
+                    android:layout_height="65dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="intentEvent"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Abs"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="17dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

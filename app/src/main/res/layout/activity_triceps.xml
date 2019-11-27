@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".triceps"
+    android:orientation="vertical"
+    android:background="#F4E2DD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:orientation="horizontal"
+        android:background="#FACC7B">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/trigif" />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9CB7B">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/r"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Triceps Workouts"
+                android:textColor="#000000"
+                android:textSize="40dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/diamondpushups"
+                    android:layout_width="104dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="diamondpushups"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Diamond pushups"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/kickaback"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="kickback"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Kickback"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/skullcrushers"
+                    android:layout_width="103dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="skullcrushers"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Skullcrushers"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/dips"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="dips"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Dips"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/backbutton"
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/backbutton"
+                    android:onClick="backbutton"
+
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

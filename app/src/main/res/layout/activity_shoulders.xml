@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shoulders"
+    android:orientation="vertical"
+    android:background="#F4E2DD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:background="#888888"
+        android:orientation="horizontal">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:src="@drawable/shouldersgif" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#888888">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/r"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Shoulders Workouts"
+                android:textColor="#000000"
+                android:textSize="40dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                >
+
+                <Button
+                    android:id="@+id/overheadpress"
+                    android:layout_width="104dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="overheadpress"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Overhead  press"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/shrugs"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="shrugs"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Shrugs"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/reardeltfly"
+                    android:layout_width="103dp"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="reardeltfly"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Rear Delt fly"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+
+                <Button
+                    android:id="@+id/frontraise"
+                    android:layout_width="103dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="frontraise"
+                    android:shadowColor="#A8A8A8"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="5"
+                    android:text="Front raise"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/backbutton"
+                    android:layout_width="250dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/backbutton"
+                    android:onClick="backbutton"
+
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

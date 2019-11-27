@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.art.fit">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ropecrunches"></activity>
+        <activity android:name=".situps" />
+        <activity android:name=".plank" />
+        <activity android:name=".crunches" />
+        <activity android:name=".lunges" />
+        <activity android:name=".deadliftleg" />
+        <activity android:name=".legpress" />
+        <activity android:name=".squats" />
+        <activity android:name=".jumprope" />
+        <activity android:name=".skipping" />
+        <activity android:name=".elliptical" />
+        <activity android:name=".treadmill" />
+        <activity android:name=".frontraise" />
+        <activity android:name=".reardeltfly" />
+        <activity android:name=".shrugs" />
+        <activity android:name=".overheadpress" />
+        <activity android:name=".dips" />
+        <activity android:name=".skullcrushers" />
+        <activity android:name=".kickback" />
+        <activity android:name=".diamondpushups" />
+        <activity android:name=".preachercurls" />
+        <activity android:name=".ezcurls" />
+        <activity android:name=".barbellcurls" />
+        <activity android:name=".hammercurls" />
+        <activity android:name=".deadlift" />
+        <activity android:name=".latpulldown" />
+        <activity android:name=".barbellrow" />
+        <activity android:name=".pullups" />
+        <activity android:name=".pullover" />
+        <activity android:name=".crossover" />
+        <activity android:name=".fly" />
+        <activity android:name=".startexercise" />
+        <activity android:name=".benchpress" />
+        <activity android:name=".cardio" />
+        <activity android:name=".shoulders" />
+        <activity android:name=".abs" />
+        <activity android:name=".legs" />
+        <activity android:name=".triceps" />
+        <activity android:name=".biceps" />
+        <activity android:name=".back" />
+        <activity android:name=".chest" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".excercise" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
