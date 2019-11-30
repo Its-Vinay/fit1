@@ -35,7 +35,7 @@ public class startexercise extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_startexercise);
         et = findViewById(R.id.et);
         tv = findViewById(R.id.tv);
         set = findViewById(R.id.btn_set);
